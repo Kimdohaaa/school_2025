@@ -1,9 +1,10 @@
 package class01;
 
 //성적 처리 프로그램 //
-class Grade{
-	int e ;
-	int m ;
+class Grade{ // 클래스를 통해 '성적'이라는 대상을 추상화
+	
+	int e ; // 멤버변수
+	int m ; // 멤버변수
 	
 	void output_grade() { // 성적의 합을 구하는 메소드
 		System.out.println(e + m);;
